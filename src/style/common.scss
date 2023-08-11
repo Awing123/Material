@@ -1,0 +1,33 @@
+$noBarHeight: calc(100vh - 64px);
+$noTopAndBottomHeight: calc(100vh - 104px);
+
+.no-bar-max-height {
+  max-height: $noBarHeight;
+}
+
+.no-bar-height {
+  height: $noBarHeight;
+}
+.no-top-bottom-height {
+  height: $noTopAndBottomHeight;
+}
+
+a {
+  text-decoration: none;
+}
+
+.no-data-tip {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+
+  img {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+}
+
